@@ -1,0 +1,4 @@
+@mixin typography($fontSize, $fontColor){
+    color: $fontColor;
+    font-size: $fontSize;
+}
