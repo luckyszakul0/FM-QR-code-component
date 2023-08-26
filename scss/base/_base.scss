@@ -12,6 +12,7 @@ input, button{
 
 body, html{
     height: 100vh;
+    width: 100vw;
     background: $lightGray;
     font-family: 'Outfit', sans-serif;
     display: flex;
@@ -21,8 +22,10 @@ body, html{
 
 .main-heading{
     @include typography(1.375rem, $darkBlue);
+    padding: 0 1.2rem 0 1.2rem;
 }
 
 .plain-text{
     @include typography(0.9375rem, $grayishBlue);
+    padding: 0 1.2rem 0 1.2rem;
 }
